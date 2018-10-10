@@ -1,0 +1,785 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham', sans-serif;
+    font-weight: normal;
+}
+/* ----- General properties------*/
+*::selection
+{
+    background: #eb5635;
+}
+
+
+/*//////////////\\\\\\\\\\\\\\*/
+/*------Section A --------*/
+.bg
+{
+    padding-bottom: 150px;
+}
+/*
+.hero .container{
+    padding-left: 360px;
+    padding-top: 65px;
+}
+*/
+.hero{
+    padding-top: 50px;
+}
+nav
+{
+    width: 1030px;
+    padding-top: 10px;
+    height: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.logoBox
+{
+    margin-left: 40px;
+    margin-top: 7.5px;
+}
+.logoBox .logo
+{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.logoBox .lang{
+    margin-top: 10px;
+    width: 50%;
+    float: right;
+}
+.logoBox .lang p{
+    display: inline-block;
+    margin-left: 5px;
+    color: #000;
+}
+.logoBox .lang .msgIcon{
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e9e9e9;
+    border-radius: 50%;
+}
+.logoBox .lang .flage{
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e9e9e9;
+    border-radius: 50%;
+}
+.logoBox .lang i{
+    display: inline-block;
+    font-size: 20px;
+    color: #e9e9e9;
+    border-radius: 50%;
+}
+.logoBox .lang img{
+    width: 16px;
+    height: auto;  
+}
+select{
+    padding: 5px 10px;
+    margin-left: 20px;
+    outline: none;
+    color: #595959;
+    font-size: 18px;
+}
+nav .menuBar{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 1030px;
+    height: auto;
+}
+nav .leftDiv{
+    width: 900px;
+    height: auto;
+    float: left;
+}
+nav .rightDiv{
+    margin-top: 5px;
+    width: 128px;
+    height: auto;
+    float: right;
+}
+.menuBar ul
+{
+    margin: 0 auto;
+    list-style-type: none;
+}
+.menuBar ul li
+{
+    display: inline-block;
+    text-align: center
+}
+.menuBar ul li a
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    transition: 0.1s;
+    box-sizing: border-box;
+}
+.menuBar ul li a:hover
+{
+    background-color: #eb5635;
+    border-radius: 20px;
+    transition: 0.1s;
+}
+.menuBar ul li a i
+{
+    padding-left: 15px;
+    font-size: 16px;
+    
+}
+.iconAnchor{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.facebook{
+    font-size: 12px;
+    background-color: #3b5998;
+    color: #fff;
+}
+.twitter{
+    font-size: 12px;
+    background-color: #00aced;
+    color: #fff;
+}
+.youtube{
+    font-size: 12px;
+    background-color: #bb0000;
+    color: #fff;
+}
+.desc
+{
+    padding-top: 170px;
+    margin: 0 auto;
+    height: auto;
+    font-size: 42px;
+    text-align: left;
+}
+.descTitle h1{
+    padding-bottom: 15px;
+    width: 300px;
+}
+.descTitle .title{
+    display: block;
+    width: 220px;
+    height: 3px;
+    background-color: #eb5635
+}
+.descTitle h2{
+    padding-bottom: 15px;
+    width: 500px;
+    line-height: 65px;
+}
+.descTitle p{
+    font-size: 18px;
+    line-height: 28px;
+    width: 550px;
+}
+.storeLinks a{
+    padding: 0px 10px;
+    font-size: 15.12px;
+    line-height: 42px;
+    width: 190px;
+    height: 42px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 21px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    box-sizing: border-box
+}
+.storeLinks a:hover{
+    color: #fff;
+    background-color: #eb5635;
+}
+
+/*//////////////\\\\\\\\\\\\\\\\\\*/
+/*------Section B -----------*/
+.homeFront{
+    background-image: url(../img/homeFront.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.homeFront .container{
+    min-height: 610px;
+    padding-bottom: 177px;
+}
+.homeFront .desc
+{
+    padding-top: 108px;
+    text-align: left;
+    float: right;
+}
+.homeFront .descTitle h2{
+    padding-bottom: 15px;
+    width: 500px;
+    line-height: 65px;
+    color: #686868
+}
+.homeFront .descTitle .title{
+    display: block;
+    width: 220px;
+    height: 3px;
+    background-color: #eb5635
+}
+
+/*///////////\\\\\\\\\\\\\\\*/
+/* ------ Section C -------*/
+.subContainer{
+    margin: 0 auto;
+    width: 1300px;
+    height: auto;
+    margin-top: -100px;
+}
+/*
+.coolDishonored container{
+    margin-top: -100px;
+}
+*/
+.subContainer .gameImgFirst{
+    margin-left: 10px;
+    padding-bottom: 35px;
+    background-image: url(../img/ios7/img-01.jpg);
+    background-position: left;
+    width: 19%;
+    height: 490px;
+    text-align: center;
+    float: left;
+    box-sizing: border-box
+}
+.ios7{
+    margin-top: 430px;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: #eb5635;
+    line-height: 30px;
+    font-size: 20px;
+    transform: translateX(-50%);
+}
+.subContainer .Dishonored{
+    position: relative;
+    padding-bottom: 35px;
+    width: 19%;
+    height: 490px;
+    background-color: #fff;
+    float: left;
+    box-sizing: border-box
+}
+.subContainer .Dishonored h4{
+    margin-top: 45px;
+    margin-right: 30px;
+    margin-left: 40px;
+    text-align: left;
+    line-height: 45px;
+    color: #464646;
+}
+.subContainer .Dishonored p{
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-left: 40px;
+    margin-bottom: 45px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 16px;
+    color: #b1b1b1;
+}
+.subContainer .Dishonored span
+{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    color: #eb5635;
+    border: 1.2px solid #eb5635;
+    border-radius: 50%;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
+}
+.subContainer .Dishonored .action,
+.subContainer .Dishonored .kids{
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.subContainer .Dishonored .action a,
+.subContainer .Dishonored .kids a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #eb5635;
+    font-weight: bold;
+    font-weight: 28px;
+}
+.viewWebsite{
+    position: absolute;
+    bottom: 20px;
+    padding: 0px 10px;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 15.12px;
+    line-height: 42px;
+    width: 190px;
+    height: 42px;
+    color: #000;
+    border: 1px solid #333;
+    background-color: #fff;
+    border-radius: 21px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box
+}
+.viewWebsite:hover{
+    color: #fff;
+    background-color: #eb5635;
+    border: none;
+}
+.subContainer .drift{
+    position: relative;
+    margin-left: 10px;
+    padding-bottom: 35px;
+    width: 18.5%x;
+    height: 490px;
+    float: left;
+    background-color: #fff;
+    box-sizing: border-box
+}
+.drift .viewWebsite{
+    margin-top: 10px;
+}
+.subContainer .drift h4{
+    display: block;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 115px;
+    text-align: left;
+    line-height: 45px;
+    color: #464646;
+}
+.battelField{
+    position: relative;
+    margin-left: 10px;
+    padding-bottom: 35px;
+    width: 39%;
+    height: 490px;
+    float: left;
+    background-image: url(../img/ios7/img-03.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box
+}
+.battelField h4{
+    display: block;
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 150px;
+    font-weight: lighter;
+    text-align: left;
+    line-height: 45px;
+    color: #fff;
+}
+.battelField p{
+    margin-top: 15px;
+    margin-left: 300px;
+    width: 170px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+}
+.battelField .viewWebsite{
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 95px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.battelField .viewWebsite:hover{
+    background-color: #eb5635;
+    color: #fff;
+    border: none;
+}
+.battelField .ios7{
+    margin-left: 350px;
+    margin-top: 66px;
+}
+/*//////////////\\\\\\\\\\\\\*/
+/*---- Section D -----*/
+.howWeAre{
+    background-color: #fafafa
+}
+.howWeAre .descTitle h2{
+    color: #222222
+}
+.howWeAre .descTitle span{
+    display: block;
+    width: 60px;
+}
+.howWeAre .descTitle p{
+    float: right;
+    margin-right: 100px;
+    font-size: 15px;
+    width: 750px;
+    color: #999999
+}
+.howWeAre .descTitle p span{
+    display: inline-block;
+    width: auto;
+    color: #eb5635
+}
+
+/*//////////////\\\\\\\\\\\\\*/
+/*---- Section D -----*/
+.team{
+    background-color: #fff;
+}
+.team .teamImgBox{
+    display: inline-block;
+}
+.team button{
+    display: inline-block;
+    margin-top: 10px;
+    width: 67px;
+    height: 67px;
+    border: none;
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3a3a3a;
+    float: left;
+    box-sizing: border-box;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.team .prev{
+    float: left;
+}
+.team .next{;
+    float: right;
+}
+.team .next:hover,
+.team .prev:hover{
+    background-color: #eb5635;
+    color: #fff;
+    transition: 0.2s;
+}
+.team img{
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 67px;
+    height: 67px;
+    cursor: pointer;
+}
+.teamDesc{
+    text-align: center;
+}
+.teamDesc h5,p{
+    display: inline-block;
+    font-weight: 400;
+}
+
+.teamDesc h5 {
+    margin-right: 35px;
+    color: #eb5635;
+}
+.teamDesc p{
+    color: #999999;
+    font-size: 18px;
+}
+/*//////////\\\\\\\\\*/
+/*----- Section E-----*/
+.workUs{
+    padding-top: 50px;
+    background-color: #fafafa;
+}
+.workUs .descTitle .leftDiv{
+    width: 40%;
+    float: left;
+}
+.workUs .descTitle .rightDiv{
+    width: 60%;
+    text-align: left;
+    float: right;
+}
+.workUs .descTitle span{
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+}
+.workUs .descTitle h3{
+    padding-bottom: 10px;
+    text-align: left;
+    color: #222222;
+}
+.workUs .descTitle p{
+    padding-right: 50px;
+    width: 100%;
+    color: #999999;
+    font-size: 15px;
+}
+.workUs .box{
+    margin-top: 40px;
+}
+.workUs .box .leftBox{
+    width: 49%;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 10px;
+    height: auto;
+    background-color: #fff;
+    text-align: left;
+    float: left;
+    box-sizing: border-box;
+}
+.workUs .box .rightBox{
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 10px;
+    width: 49%;
+    height: auto;
+    background-color: #fff;
+    text-align: left;
+    float: right;
+    box-sizing: border-box;
+}
+.workUs .box h5{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #4b4b4b
+}
+.workUs .box p{
+    padding-top: 0px;
+    color: #b1b1b1;
+    line-height: 25px;
+    font-size: 13px;
+}
+.workUs .box .fa-map-marker-alt{
+    padding-right: 10px;
+    color: #eb5635
+}
+.workUs .box .fa-clock{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #b1b1b1
+}
+.workUs .box .address{
+    font-size: 15px;
+}
+.workUs .box a{
+    margin-top: 20px;
+    padding: 5px 10px;
+    padding-top: 6px;
+    width: 125px;
+    height: 30px;
+    color: #eb5635;
+    border: 1.5px solid #eb5635;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+.workUs .box a:hover{
+    color: #fff;
+    background-color: #eb5635;
+    border: 1px solid #eb5635;
+    letter-spacing: 1.5px;
+    transition: 0.2s;
+}
+
+/*//////////\\\\\\\\\*/
+/*----- Section F-----*/
+
+.Links{
+    padding-bottom: 70px;
+    background-color: #fafafa;
+}
+.Links .blog{
+    background-color: #fafafa;
+    width: 415px;
+    float: left;
+}
+.Links .blog .title{
+}
+.Links .blog h2{
+    display: inline-block;
+    margin: 0 auto;
+    color: #4b4b4b;
+}
+.Links .blog .title a{
+    margin-right: 10px;
+    margin-top: 48px;
+    float: right;
+    color: #7b7b7b;
+}
+.Links .blog .title a:hover{
+    text-decoration-line: underline;
+    color: #eb5635;
+}
+.Links .blog .box{
+    width: 100%;
+    min-height: 340px;
+    float: left;
+    background-color: #fff;
+}
+.Links .box h5{
+    margin-bottom: 5px;
+    padding-left: 25px;
+    font-size: 21px;
+    color: #4b4b4b;
+}
+.Links .box p{
+    padding-left: 25px;
+    color: #4b4b4b;
+    font-size: 15px
+}
+.Links .blog .box span{
+    margin-top: 25px;
+    width: 90px;
+    float: left;
+    box-sizing: border-box;
+}
+.Links .blog .box .upSection{
+    width: 100%;
+    float: left;
+}
+.Links .blog .box .downSection{
+    width: 100%;
+    float: left;
+}
+.Links .blog .box div{
+    padding-left: 35px;
+    padding-right: 20px;
+    float: left;
+    width: calc(100% - 90px);
+    box-sizing: border-box;
+}
+.Links .upSection div h5{
+    font-weight: normal;
+}
+
+.Links .press{
+    margin-left: 20px;
+    width: 415px;
+    background-color: #fafafa;
+    float: left;
+}
+.Links .press h2{
+    padding-right: 30px;
+    color: #4b4b4b;
+}
+.Links .press .box{
+    padding-right: 30px;
+    width: 415px;
+    min-height: 340px;
+    float: left;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.Links .press .box div{
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+}
+.Links .press .box a{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    color: #eb5635;
+}
+.Links .press .box p{
+    padding-left: 25px;
+    padding-top: 30px;
+    color: #4b4b4b;
+    font-size: 15px
+}
+.Links .tweets{
+    margin-left: 20px;
+    width: 415px;
+    background-color: #fafafa;
+    float: left;
+}
+.Links .tweets .box{
+    padding-right: 30px;
+    width: 415px;
+    height: 340px;
+    float: left;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.Links .tweets .box p{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #999;
+}
+.Links .tweets .box p a{
+    color: #3090ff;
+}
+.Links .tweets .box #twitterLink
+{
+    color: #3090ff;
+}
+.Links .tweets .box #twitterLink i{
+    color: #3090ff;
+}
+.Links .tweets .box #twitterLink a{
+    margin-left: 20px;
+}
+.Links .tweets h2{
+    display: inline-block;
+    margin: 0 auto;
+    color: #4b4b4b;
+}
+
+
+/*/////////\\\\\\\\\\\*/
+/*-------Section F-----*/
+.navBottom span{
+    display: inline-block;
+    margin-left: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+.navBottom  .container{
+    padding-top: 45px;
+}
+.navBottom .leftDiv{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.navBottom a{
+    font-weight: bold;
+}
+footer {
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 45px;
+}
+footer p{
+    color: #444;
+    font-size: 18px;
+}
